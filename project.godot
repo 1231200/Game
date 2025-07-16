@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="Underworld Tavern Tycoon"
+run/main_scene="uid://c42q6bhok6oqi"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [rendering]
 
